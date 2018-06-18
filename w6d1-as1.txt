@@ -1,0 +1,11 @@
+1. Cryptography is the process of encoding information so that it is unreadable to everyone but an authorized party, who usually possesses some
+	kind of key needed to decode the data.
+2. The main difference between asymmetric and symmetric encryption is the keys used. Symmetric uses the same key (which is ideally a secret) for
+	both encryption and decryption while asymmetric algorithms use two keys. One key (the public key) is used for encrypting and a second key, the 
+	private key, is used to decrypt.
+3. A hash is a string or number of fixed length generated from a string of text that will vary wildly with changes in input. It should be impossible
+	to turn a hash back into its input string.
+4. A seed is a number used for initializing a pseudorandom number generator.
+5. A keystore is a Java repository used to store private keys and security certificates.
+6. The Android keystore provides access to special secure hardware for storing crypto keys. On the right hardware, keys can be generated and operate on data
+	without ever leaving the hardware. 
